@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "vercel-build": "next build"  // Add this line for explicit Vercel build definition
+    "vercel-build": "next build"  // Explicit Vercel build script
   },
   "dependencies": {
     "next": "13.4.12",
@@ -18,3 +18,4 @@
     "tailwindcss": "^3.3.2"
   }
 }
+

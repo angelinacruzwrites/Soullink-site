@@ -1,14 +1,14 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}', // Include all JS/TSX/JSX files in the 'pages' directory
-    './components/**/*.{js,ts,jsx,tsx}', // Include all JS/TSX/JSX files in the 'components' directory
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        emerald: '#2ecc71', // Custom emerald green color
-        gold: '#f1c40f',    // Custom gold color
+        emerald: "#50C878",
+        yellow: "#FFD700",
       },
     },
   },

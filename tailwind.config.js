@@ -1,10 +1,17 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        emerald: '#2ecc71',
-        gold: '#f1c40f',
+        emerald: "#50C878",
+        yellow: "#FFD700",
       },
     },
   },
+  plugins: [],
 }
+
